@@ -59,10 +59,10 @@ body {
     font-weight: bolder;
     background-image: linear-gradient(to top left, #5f37a0, #eea859);
     width: 200px;
-    box-shadow: 10px, 6px, 0, 0, black;
+    box-shadow: 10px, 6px, black;
 }
 
-.about-me {
+#about-me {
     min-height: 100vh;
     min-width: 100vw;
     background: linear-gradient(to bottom right, #a06a37 20%, #428648 100%);
