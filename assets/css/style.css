@@ -1,41 +1,72 @@
-.bg {
+/* .bg {
     background-image: url("../images/abstract-asymmetry-botanical-1048033.jpg");
-    /* background-position: center; */
+    /* background-position: center; 
     background-size: cover;
     font-family: 'Raleway', sans-serif;
     background-repeat: no-repeat;
     height: 100vh;
     z-index: -1;
+} */
+
+body {
+    background-image: url("../images/newerHomepage.PNG");
+    /* background-position: center; */
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    z-index: -1;
+
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+
+    /* Full height */
+    height: 100%;
 }
 
-.hero {
-    font-family: 'Raleway', sans-serif;
-    /* background: linear-gradient(to bottom, #002c00 57%, #000066 100%); */
-    /* background: linear-gradient(to bottom, #000066 57%, #002c00 100%); */
-    background-color: rgb(12, 63, 46);
-    /* opacity: 0.75; */
+.overlay2 {
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(to top right, #a06a37 20%, #428648 100%);
+    opacity: 0.55;
+    z-index: 1;
 }
 
-.homepage {
-    color: #50c031;
+.bg-text {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }
 
-.overlay {
-    background: linear-gradient(to top, #581f58 0%, #66ccff 100%);
-    height: 100vh;
-    opacity: 0.75;
-    /* z-index: 1; */
-    margin-top: -969px;
-    
+.enter-button {
+    font-size: 175%;
+    -webkit-transition: width 1s;
+    transition: width 1s;
 }
 
-.opaque-script {
-    position: relative;
-    bottom: 990px;
-    /* opacity: 1; */
+.enter-button:hover {
+    font-size: 175%;
+    font-weight: bolder;
+    background-image: linear-gradient(to top left, #5f37a0, #eea859);
+    width: 200px;
+    box-shadow: 10px, 6px, 0, 0, black;
 }
 
-.gitHub-card {
-    margin-top: -969px;
-    max-height: 300px;
+.about-me {
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(to bottom right, #a06a37 20%, #428648 100%);
+    opacity: 0.55;
+    z-index: 1;
 }
+
